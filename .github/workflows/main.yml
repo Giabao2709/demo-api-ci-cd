@@ -19,3 +19,7 @@ jobs:
 
       - name: 4. Chạy bộ Test tự động
         run: newman run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json -d booking_data.csv
+
+
+
+
